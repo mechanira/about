@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif
+}
+
+body {
+    background-color: black;
+}
+
+.nav-container {
+    position: fixed;
+    background-color: #080808;
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navbar nav a {
+    padding-left: 20px;
+}
+
+.container {
+    margin: auto;
+    padding-top: 300px;
+    max-width: 80%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    margin: auto;
+    padding: 20px;
+}
+
+.intro a {
+    font-size: 18px;
+}
+
+.project-container {
+    padding: 5%;
+    padding-bottom: 8%;
+    margin: 300px 5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.project-container h1 {
+    margin: 20px 0
+}
+
+.project-container .project-text {
+    padding-bottom: 30px;
+}
+
+.astra {
+    background-image: url("res/AstraLogo.png");
+}
+
+.button {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #004cff;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 20px;
+}
