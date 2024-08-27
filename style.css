@@ -41,16 +41,16 @@ body {
     justify-content: center;
 }
 
-.intro {
+.intro-container {
     text-align: center;
 }
 
-.intro h1 {
+.intro-container h1 {
     margin: auto;
     padding: 20px;
 }
 
-.intro a {
+.intro-container a {
     font-size: 18px;
 }
 
