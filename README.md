@@ -1,0 +1,1 @@
+just a personal website of mine, nothing else here (•ω•`)
