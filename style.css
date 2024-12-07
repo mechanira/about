@@ -121,21 +121,21 @@ body {
     opacity: 0.75;
 }
 
-#discord-logo path:nth-child(1) {
+.social-logo path:nth-child(1) {
     fill: black;
     stroke-dasharray: 232;
     stroke-dashoffset: 232;
 }
 
-#discord-logo.in-view path:nth-child(1) {
+.social-logo.in-view path:nth-child(1) {
     animation: line-anim 2s ease forwards;
 }
 
-#discord-logo path:nth-child(2) {
+.social-logo path:nth-child(2) {
     stroke-dasharray: 250;
     stroke-dashoffset: 250;
 }
-#discord-logo.in-view path:nth-child(2) {
+.social-logo.in-view path:nth-child(2) {
     animation: line-anim 2s ease forwards;
 }
 
